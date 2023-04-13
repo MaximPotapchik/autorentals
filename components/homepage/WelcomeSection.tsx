@@ -1,3 +1,4 @@
+import ExpandingBoxes from "./middle/ExpandingBoxes";
 import TextBelowImage from "./top/TextBelowImage";
 import TopImage from "./top/TopImage";
 
@@ -7,6 +8,7 @@ const WelcomeSection = () => {
         <div>
             <TopImage />
             <TextBelowImage />
+            <ExpandingBoxes />
         </div>
     
     );
