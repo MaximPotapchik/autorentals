@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <nav className="flex items-center justify-between py-2 px-4 lg:px-16">
+    <nav className="flex items-center justify-between py-2 px-4 lg:px-20 sm:border-b-4 border-b-2">
       <div className="flex items-center">
       <Image src="/download.webp" alt="logo" width={150} height={100} />
         
