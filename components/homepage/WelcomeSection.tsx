@@ -9,8 +9,10 @@ const WelcomeSection = () => {
     
         <div className="flex flex-col p-2 bg-wh">
             <TopImage />
-            <TextBelowImage />
-            <AboveCarouselText />
+            <div className="border-[1px] m-4 p-2 border-red-600">
+                <TextBelowImage />
+                <AboveCarouselText />
+            </div>
             <CarCarousel />
             <ExpandingBoxes />
         </div>
