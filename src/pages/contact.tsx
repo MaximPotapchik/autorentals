@@ -16,5 +16,5 @@ const Contact: NextPage = () => {
     );
   };
   
-  export default Home;
+  export default Contact;
   

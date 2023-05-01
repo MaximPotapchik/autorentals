@@ -11,10 +11,13 @@ const ExpandingBoxes = () => {
           answer: 'We try our best to have cars available for rent at all times. However, if you have a specific car in mind, we recommend that you book it in advance to avoid disappointment.',
         },
         {
-          question: 'How do I cancel my subscription?',
-          answer: 'We try our best to have cars available for rent at all times. However, if you have a specific car in mind, we recommend that you book it in advance to avoid disappointment.',
+          question: 'How do I book a car?',
+          answer: 'Click Here to book a car. You can also naviagate to the booking page by clicking on the "Book Now" button on the top right corner of the page.',
         },
-        // Add more items as needed
+        {
+          question: 'How do I pay for my booking?',
+          answer: 'You can pay for your booking by credit card or by cash. If you choose to pay by cash, you will be required to pay a deposit of 50% of the total cost of the booking.',
+        },
       ];
     
       return (

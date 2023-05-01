@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -8,18 +9,18 @@ const Header = () => {
         
       </div>
       <div className="flex lg:justify-end space-x-4">
-        <a href="/" className="px-4 py-2 rounded-md text-white bg-red-600 hover:bg-red-700 transition duration-200 ease-in-out">
+        <Link href="/" className="px-4 py-2 rounded-md text-white bg-red-600 hover:bg-red-700 transition duration-200 ease-in-out">
           Home
-        </a>
-        <a href="/" className="px-4 py-2 rounded-md text-white bg-red-600 hover:bg-red-700 transition duration-200 ease-in-out">
+        </Link>
+        <Link href='/fleet' className="px-4 py-2 rounded-md text-white bg-red-600 hover:bg-red-700 transition duration-200 ease-in-out">
           Fleet
-        </a>
-        <a href="/" className="px-4 py-2 rounded-md text-white bg-red-600 hover:bg-red-700 transition duration-200 ease-in-out">
+        </Link>
+        <Link href='/services' className="px-4 py-2 rounded-md text-white bg-red-600 hover:bg-red-700 transition duration-200 ease-in-out">
           Services
-        </a>
-        <a href="/" className="px-4 py-2 rounded-md text-white bg-red-600 hover:bg-red-700 transition duration-200 ease-in-out">
+        </Link>
+        <Link href="/contact"  className="px-4 py-2 rounded-md text-white bg-red-600 hover:bg-red-700 transition duration-200 ease-in-out">
           Contact
-        </a>
+        </Link>
       </div>
     </nav>
   );
