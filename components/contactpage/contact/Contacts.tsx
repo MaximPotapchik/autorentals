@@ -3,7 +3,7 @@ import Montreal from './MontrealLocation';
 
 const Contacts = () => {
     return (
-    <div>
+    <div className='flex flex-row flex-wrap max-w-[50%]'>
         <Toronto />
         <Montreal />
     </div>

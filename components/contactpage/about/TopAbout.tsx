@@ -1,7 +1,7 @@
 const TopAbout = () => {
     return (
     <div>
-        <h1 className="text-4xl font-bold text-center text-red-600 p-2">About Us</h1>
+        <h1 className="text-4xl font-bold text-center text-white p-2 bg-red-600">About Us</h1>
     </div>  
     );
 }

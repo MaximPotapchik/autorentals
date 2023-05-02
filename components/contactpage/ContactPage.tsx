@@ -1,7 +1,6 @@
 import BottomAbout from "./about/BottomAbout";
 import TopAbout from "./about/TopAbout";
-import Montreal from "./contact/MontrealLocation";
-import Toronto from "./contact/TorontoLocation";
+import Contacts from "./contact/Contacts";
 
 
 
@@ -9,8 +8,7 @@ const ContactPage = () => {
     return (<>
     <TopAbout />
     <BottomAbout />
-    <Toronto />
-    <Montreal />
+    <Contacts />
     </>
     );
 }
