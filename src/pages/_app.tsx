@@ -1,6 +1,7 @@
 import Layout  from "components/layout comps/Layout";
 import { type AppType } from "next/dist/shared/lib/utils";
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import 'react-day-picker/dist/style.css';
 
 import "~/styles/globals.css";
 
